@@ -30,7 +30,7 @@
     background-image: url('https://img.wallpapersafari.com/phone/640/1136/1/80/8DYndB.png');
     background-repeat: repeat;
     background-position: center;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     padding: 30px;
 }
 .chat__messages{
@@ -41,6 +41,9 @@
     border-radius: 10px;
     width: fit-content;
     margin-bottom: 25px;
+    max-width: 300px;
+    word-wrap: break-word;
+    height: fit-content;
 }
 .chat__receiver{
     margin-left: auto;
@@ -77,6 +80,7 @@
 .chat__footer>form>button{
     border: none;
     cursor: pointer;
+    background: none;
 }
 .chat__footer>.MuiSvgIcon-root{
     padding: 10px;
